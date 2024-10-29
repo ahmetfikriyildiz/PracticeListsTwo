@@ -13,7 +13,7 @@ namespace PracticeListsTwo
             // String türünde bir liste oluşturuyoruz; bu listeye davetli isimlerini ekleyeceğiz
             List<string> list = new List<string>();
             // Sonsuz bir döngü başlatıyoruz, kullanıcıdan isim almak için
-            for (int i = 0; i<5;i++)
+            for (int i = 1; i <= 5;i++)
             { // Kullanıcıya isim girmesi veya işlemi bitirmesi için talimat veriyoruz
                 Console.Write($"Kahve {i} : ");
                 // Kullanıcının girdiği ismi "invite" değişkenine atıyoruz
